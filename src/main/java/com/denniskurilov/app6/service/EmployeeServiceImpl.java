@@ -1,7 +1,7 @@
-package com.dennisurilov.app6.service;
+package com.denniskurilov.app6.service;
 
-import com.dennisurilov.app6.dao.EmployeeDAO;
-import com.dennisurilov.app6.entity.Employee;
+import com.denniskurilov.app6.dao.EmployeeDAO;
+import com.denniskurilov.app6.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

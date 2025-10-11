@@ -1,6 +1,6 @@
-package com.dennisurilov.app6.dao;
+package com.denniskurilov.app6.dao;
 
-import com.dennisurilov.app6.entity.Employee;
+import com.denniskurilov.app6.entity.Employee;
 
 import java.util.List;
 

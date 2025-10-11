@@ -1,4 +1,4 @@
-package com.dennisurilov.app6;
+package com.denniskurilov.app6;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

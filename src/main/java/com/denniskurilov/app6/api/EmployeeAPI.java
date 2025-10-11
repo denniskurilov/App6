@@ -1,7 +1,7 @@
-package com.dennisurilov.app6.api;
+package com.denniskurilov.app6.api;
 
-import com.dennisurilov.app6.entity.Employee;
-import com.dennisurilov.app6.service.EmployeeService;
+import com.denniskurilov.app6.entity.Employee;
+import com.denniskurilov.app6.service.EmployeeService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.springframework.beans.factory.annotation.Autowired;

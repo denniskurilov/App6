@@ -1,6 +1,6 @@
-package com.dennisurilov.app6.service;
+package com.denniskurilov.app6.service;
 
-import com.dennisurilov.app6.entity.Employee;
+import com.denniskurilov.app6.entity.Employee;
 
 import java.util.List;
 

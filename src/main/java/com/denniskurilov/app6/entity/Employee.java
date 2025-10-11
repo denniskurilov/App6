@@ -1,4 +1,4 @@
-package com.dennisurilov.app6.entity;
+package com.denniskurilov.app6.entity;
 
 import jakarta.persistence.*;
 
