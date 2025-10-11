@@ -21,16 +21,21 @@ public class Employee {
     @Column(name = "AGE")
     private Integer age;
 
+    @Column(name = "IS_ACTIVE")
+    private Boolean isActive;
+
     @Column(name = "EMAIL")
     private String email;
 
     public Employee() {
     }
 
-    public Employee(String firstName, String lastName, Integer age, String email) {
+    public Employee(Integer id, String firstName, String lastName, Integer age, Boolean isActive, String email) {
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+        this.isActive = isActive;
         this.email = email;
     }
 
@@ -66,6 +71,14 @@ public class Employee {
         this.age = age;
     }
 
+    public Boolean getIsActive() {
+        return isActive;
+    }
+
+    public void setIsActive(Boolean isActive) {
+        this.isActive = isActive;
+    }
+
     public String getEmail() {
         return email;
     }
@@ -81,6 +94,7 @@ public class Employee {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +
+                ", isActive=" + isActive +
                 ", email='" + email + '\'' +
                 '}';
     }
